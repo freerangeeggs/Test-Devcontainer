@@ -7,9 +7,25 @@
     // ],
     // Install ESLint and Peacock extensions
     "extensions": [
+        // IDE
+        "editorconfig.editorconfig",
+        "visualstudioexptteam.vscodeintellicode",
+        "aaron-bond.better-comments",
+        "eamodio.gitlens",
         "dbaeumer.vscode-eslint",
-        "johnpapa.vscode-peacock",
-        "ms-vscode.azure-account"
+        "davidanson.vscode-markdownlint",
+        "vscode-icons-team.vscode-icons",
+        // Azure Tools
+        "ms-vscode.azure-account",
+        "ms-azuretools.vscode-azureappservice",
+        "ms-azuretools.vscode-azurefunctions",
+        "ms-azuretools.vscode-logicapps",
+        "ms-azure-devops.azure-pipelines",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "msazurermtools.azurerm-vscode-tools",
+        "ms-azuretools.vscode-azurestorage",
+        "ms-dotnettools.csharp",
+        "ytechie.armviz"
     ],
     // Set remote color for Peacock
     "settings": {
