@@ -1,0 +1,20 @@
+{
+    // Docker image to base this off
+    // "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:12",
+    // Open port 4200 by default
+    // "forwardPorts": [
+    //     4200
+    // ],
+    // Install ESLint and Peacock extensions
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "johnpapa.vscode-peacock",
+        "ms-vscode.azure-account"
+    ],
+    // Set remote color for Peacock
+    "settings": {
+        "peacock.remoteColor": "#0078D7"
+    },
+    // Run Bash script in .devcontainer directory
+    "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+}
