@@ -13,6 +13,8 @@
         "dbaeumer.vscode-eslint",
         "davidanson.vscode-markdownlint",
         "vscode-icons-team.vscode-icons",
+        // Languages
+        "ms-dotnettools.csharp",
         // Azure Tools
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azureappservice",
