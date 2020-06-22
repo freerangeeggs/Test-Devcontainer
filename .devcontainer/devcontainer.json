@@ -1,9 +1,4 @@
 {
-    // Open port 4200 by default
-    // "forwardPorts": [
-    //     4200
-    // ],
-    // Install ESLint and Peacock extensions
     "extensions": [
         // IDE
         "editorconfig.editorconfig",
@@ -19,14 +14,16 @@
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
         "ms-azuretools.vscode-logicapps",
-        "ms-azure-devops.azure-pipelines",
+        "ms-azuretools.vscode-azureeventgrid",
         "ms-azuretools.vscode-azureresourcegroups",
-        "msazurermtools.azurerm-vscode-tools",
         "ms-azuretools.vscode-azurestorage",
-        "ms-dotnettools.csharp",
-        "ytechie.armviz"
+        "formulahendry.azure-storage-explorer",
+        "msazurermtools.azurerm-vscode-tools",
+        "ms-mssql.mssql",
+        "ytechie.armviz",
+        // Azure DevOps        
+        "ms-azure-devops.azure-pipelines"
     ],
-    // Set remote color for Peacock
     "settings": {
     },
     // Run Bash script in .devcontainer directory
