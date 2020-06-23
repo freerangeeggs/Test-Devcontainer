@@ -10,6 +10,7 @@
         // Languages
         "ms-dotnettools.csharp",
         // Azure Tools
+        "Azurite.azurite",
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
