@@ -17,7 +17,6 @@
         "ms-azuretools.vscode-logicapps",
         "ms-azuretools.vscode-azureeventgrid",
         "ms-azuretools.vscode-azureresourcegroups",
-        "ms-azuretools.vscode-azurestorage",
         "formulahendry.azure-storage-explorer",
         "msazurermtools.azurerm-vscode-tools",
         "ms-mssql.mssql",
